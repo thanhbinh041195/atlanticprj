@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Joystick">
+      <UniqueIdentifier>{04504bfc-a301-42d7-8f62-a09412007a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Object">
+      <UniqueIdentifier>{5819c927-c654-433b-b1a4-a8ba2774830b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene">
+      <UniqueIdentifier>{500a807c-bfae-4a6c-8a5f-e3feb745cbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Manager">
+      <UniqueIdentifier>{c134f1ce-054b-47d2-b45f-6f3e5b856d6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameSetting.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\McSetting.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SoundManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SneakyButton.cpp">
+      <Filter>src\Joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SneakyButtonSkinnedBase.cpp">
+      <Filter>src\Joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SneakyJoystick.cpp">
+      <Filter>src\Joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SneakyJoystickSkinnedBase.cpp">
+      <Filter>src\Joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ArcherMonster.cpp">
+      <Filter>src\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Arrow.cpp">
+      <Filter>src\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CowMonster.cpp">
+      <Filter>src\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ItemShop.cpp">
+      <Filter>src\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Model.cpp">
+      <Filter>src\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>src\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AboutScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\InGameScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LogoScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NpcScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SettingScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TutorialScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AnimationManager.cpp">
+      <Filter>src\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BossMonster.cpp">
+      <Filter>src\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DogMonster.cpp">
+      <Filter>src\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SelectMapScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LogoTeam.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Define.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameSetting.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\McSetting.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SoundManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SneakyButton.h">
+      <Filter>src\Joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SneakyButtonSkinnedBase.h">
+      <Filter>src\Joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SneakyJoystick.h">
+      <Filter>src\Joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SneakyJoystickSkinnedBase.h">
+      <Filter>src\Joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ArcherMonster.h">
+      <Filter>src\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Arrow.h">
+      <Filter>src\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CowMonster.h">
+      <Filter>src\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ItemShop.h">
+      <Filter>src\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Model.h">
+      <Filter>src\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>src\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AboutScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InGameScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LogoScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NpcScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SettingScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TutorialScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AnimationManager.h">
+      <Filter>src\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BossMonster.h">
+      <Filter>src\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DogMonster.h">
+      <Filter>src\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelectMapScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LogoTeam.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
